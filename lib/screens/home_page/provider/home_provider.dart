@@ -51,17 +51,10 @@ class HomeProvider with ChangeNotifier {
   }
 
   FlutterTts flutterTts = FlutterTts();
-  bool isPlay = false;
+  // bool isPlay = false;
 
   void speakText(String verseLists) async {
-    if (isPlay == true) {
-      await flutterTts.speak("${verseLists}");
-      // await flutterTts.setPitch(0.9);
-      isPlay = false;
-    } else {
-      await flutterTts.stop();
-      isPlay = true;
-    }
+    await flutterTts.speak("${verseLists}");
 
     // flutterTts.setVoice("cmn-CN-Standard-B");
     notifyListeners();
