@@ -27,25 +27,27 @@ class HomeProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  List chapterWiseVerseList = [];
-  void chapterWiseVerse(int verseCount) {
+  List<ShowVerseModel> chapterWiseVerseList = [];
+  void chapterWiseVerse(int chNo) {
     chapterWiseVerseList = verseList
         .where(
-          (element) => element.chapterNo == verseCount,
+          (element) => element.chapterNo == chNo,
         )
         .toList();
     log('${verseList.length}');
     notifyListeners();
   }
 
-  int verseIndex = 0;
-  void changeVerseIndex(int inx) {
-    verseIndex = inx;
+  int verseImageIndex = 0;
+  void changeVerseImageIndex(int inx) {
+    verseImageIndex = inx;
     notifyListeners();
   }
 
-  void changeVerseIndexAsVerseNo(int chapterNo) {
-    // verseIndex=verseList.map((e) => e.verseNo==chapterNo,).toList();
+  int versePageViewIndex = 0;
+  void changePageViewIndex(int inx) {
+    versePageViewIndex = inx;
+    notifyListeners();
   }
 
   FlutterTts flutterTts = FlutterTts();

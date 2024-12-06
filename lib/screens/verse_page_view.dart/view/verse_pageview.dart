@@ -28,7 +28,7 @@ class _VersePageviewState extends State<VersePageview> {
         // log('')
       ),
       body: PageView.builder(
-        // controller: PageController(initialPage: hWatch.verseIndex),
+        controller: PageController(initialPage: hWatch.versePageViewIndex),
         itemCount: hWatch.chapterWiseVerseList.length,
         scrollDirection: Axis.horizontal,
         // onPageChanged: (value) {
@@ -37,7 +37,6 @@ class _VersePageviewState extends State<VersePageview> {
         itemBuilder: (context, index) {
           return Stack(
             alignment: Alignment.center,
-
             // fit: StackFit.expand,
             children: [
               Container(
@@ -45,7 +44,7 @@ class _VersePageviewState extends State<VersePageview> {
                 width: double.infinity,
                 // padding: EdgeInsets.all(16),
                 child: Image.asset(
-                  '${hWatch.gitaChapter[hWatch.verseIndex].imageUrl}',
+                  '${hWatch.gitaChapter[hWatch.verseImageIndex].imageUrl}',
                   height: double.infinity,
                   fit: BoxFit.cover,
                   colorBlendMode: BlendMode.lighten,
@@ -63,18 +62,18 @@ class _VersePageviewState extends State<VersePageview> {
                 child: Column(
                   children: [
                     Text(
-                      "${hWatch.verseList[index].title}",
+                      "${hWatch.chapterWiseVerseList[index].title}",
                       style: TextStyle(fontSize: 20),
                     ),
                     25.h,
                     hWatch.languageIndex == 0
                         ? Text(
-                            "${hWatch.verseList[index].engVerseText}",
+                            "${hWatch.chapterWiseVerseList[index].engVerseText}",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.center,
                           )
                         : Text(
-                            "${hWatch.verseList[index].verseText}",
+                            "${hWatch.chapterWiseVerseList[index].verseText}",
                             style: TextStyle(fontSize: 17),
                           ),
                     Spacer(),
@@ -83,7 +82,10 @@ class _VersePageviewState extends State<VersePageview> {
                         hRead.speakText(
                             "${hWatch.verseList[index].engVerseText}");
                       },
-                      icon: Icon(Icons.volume_up_rounded),
+                      icon: Icon(
+                        Icons.volume_up_rounded,
+                        size: 35,
+                      ),
                     ),
                   ],
                 ),

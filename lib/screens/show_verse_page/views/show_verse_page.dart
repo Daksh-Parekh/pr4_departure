@@ -45,6 +45,7 @@ class _ShowVersePageState extends State<ShowVersePage> {
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {
+                  hRead.changePageViewIndex(index);
                   // hRead.chapterWiseVerse(hWatch.gitaChapter[index].id!);
                   Navigator.pushNamed(
                     context,

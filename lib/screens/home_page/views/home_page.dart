@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
           itemBuilder: (context, index) {
             return ListTile(
               onTap: () {
-                hRead.changeVerseIndex(index);
+                hRead.changeVerseImageIndex(index);
 
                 hRead.chapterWiseVerse(hWatch.gitaChapter[index].id!);
                 Navigator.pushNamed(context, AppRoutes.showVersePage,
