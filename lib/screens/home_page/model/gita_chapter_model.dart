@@ -1,8 +1,9 @@
 class GitaChapterModel {
   int? id, verseCount;
-  String? hindiName, engName;
+  String? hindiName, engName, imageUrl;
 
-  GitaChapterModel({this.id, this.hindiName, this.engName, this.verseCount});
+  GitaChapterModel(
+      {this.id, this.hindiName, this.engName, this.verseCount, this.imageUrl});
 
   factory GitaChapterModel.mapToModel(Map map) {
     return GitaChapterModel(
@@ -10,6 +11,7 @@ class GitaChapterModel {
       hindiName: map['name'],
       engName: map['name_translation'],
       verseCount: map['verses_count'],
+      imageUrl: map['image_url'],
     );
   }
 }

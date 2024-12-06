@@ -7,6 +7,7 @@
         "image_name": "arjuna-vishada-yoga",
         "name": "अर्जुनविषादयोग",
         "name_meaning": "Arjuna's Dilemma",
+        "image_url": "assets/chapter_images/ch1.jpg",
         "name_translation": "Arjuna Visada Yoga",
         "name_transliterated": "Arjun Viṣhād Yog",
         "verses_count": 47
@@ -19,6 +20,7 @@
         "image_name": "sankhya-yoga",
         "name": "सांख्ययोग",
         "name_meaning": "Transcendental Knowledge",
+        "image_url": "assets/chapter_images/ch2.webp",
         "name_translation": "Sankhya Yoga",
         "name_transliterated": "Sānkhya Yog",
         "verses_count": 72
@@ -31,6 +33,7 @@
         "image_name": "karma-yoga",
         "name": "कर्मयोग",
         "name_meaning": "Path of Selfless Service",
+        "image_url": "assets/chapter_images/ch3.jpg",
         "name_translation": "Karma Yoga",
         "name_transliterated": "Karm Yog",
         "verses_count": 43
@@ -43,6 +46,7 @@
         "image_name": "jnana-karma-sanyasa-yoga",
         "name": "ज्ञानकर्मसंन्यासयोग",
         "name_meaning": "Path of Knowledge and the Disciplines of Action",
+        "image_url": "assets/chapter_images/ch4.jpg",
         "name_translation": "Jnana Karma Sanyasa Yoga",
         "name_transliterated": "Jñāna Karm Sanyās Yog",
         "verses_count": 42
@@ -55,6 +59,7 @@
         "image_name": "karma-sanyasa-yoga",
         "name": "कर्मसंन्यासयोग",
         "name_meaning": "Path of Renunciation",
+        "image_url": "assets/chapter_images/ch5.webp",
         "name_translation": "Karma Sanyasa Yoga",
         "name_transliterated": "Karm Sanyās Yog",
         "verses_count": 29
@@ -67,6 +72,7 @@
         "image_name": "dhyana-yoga",
         "name": "ध्यानयोग",
         "name_meaning": "Path of Meditation",
+        "image_url": "assets/chapter_images/ch6.jpg",
         "name_translation": "Dhyana Yoga",
         "name_transliterated": "Dhyān Yog",
         "verses_count": 47
@@ -79,6 +85,7 @@
         "image_name": "gyan-vigyana-yoga",
         "name": "ज्ञानविज्ञानयोग",
         "name_meaning": "Self-Knowledge and Enlightenment",
+        "image_url": "assets/chapter_images/ch7.jpg",
         "name_translation": "Gyaan Vigyana Yoga",
         "name_transliterated": "Jñāna Vijñāna Yog",
         "verses_count": 30
@@ -91,6 +98,7 @@
         "image_name": "akshara-brahma-yoga",
         "name": "अक्षरब्रह्मयोग",
         "name_meaning": "Path of the Eternal God",
+        "image_url": "assets/chapter_images/ch8.jpg",
         "name_translation": "Akshara Brahma Yoga",
         "name_transliterated": "Akṣhar Brahma Yog",
         "verses_count": 28
@@ -103,6 +111,7 @@
         "image_name": "raja-vidya-yoga",
         "name": "राजविद्याराजगुह्ययोग",
         "name_meaning": "Yoga through the King of Sciences",
+        "image_url": "assets/chapter_images/ch9.jpg",
         "name_translation": "Raja Vidya Yoga",
         "name_transliterated": "Rāja Vidyā Yog",
         "verses_count": 34
@@ -115,6 +124,7 @@
         "image_name": "vibhooti-yoga",
         "name": "विभूतियोग",
         "name_meaning": "Yoga through Appreciating the Infinite Opulences of God",
+        "image_url": "assets/chapter_images/ch10.jpg",
         "name_translation": "Vibhooti Yoga",
         "name_transliterated": "Vibhūti Yog",
         "verses_count": 42
@@ -127,6 +137,7 @@
         "image_name": "vishwaroopa-darshana-yoga",
         "name": "विश्वरूपदर्शनयोग",
         "name_meaning": "Yoga through Beholding the Cosmic Form of God",
+        "image_url": "assets/chapter_images/ch11.jpg",
         "name_translation": "Vishwaroopa Darshana Yoga",
         "name_transliterated": "Viśhwarūp Darśhan Yog",
         "verses_count": 55
@@ -139,6 +150,7 @@
         "image_name": "bhakti-yoga",
         "name": "भक्तियोग",
         "name_meaning": "The Yoga of Devotion",
+        "image_url": "assets/chapter_images/ch12.jpg",
         "name_translation": "Bhakti Yoga",
         "name_transliterated": "Bhakti Yog",
         "verses_count": 20
@@ -151,6 +163,7 @@
         "image_name": "kshetra-kshetrajna-vibhaga-yoga",
         "name": "क्षेत्र-क्षेत्रज्ञविभागयोग",
         "name_meaning": "Yoga through Distinguishing the Field and the Knower of the Field",
+        "image_url": "assets/chapter_images/ch13.jpg",
         "name_translation": "Ksetra Ksetrajna Vibhaaga Yoga",
         "name_transliterated": "Kṣhetra Kṣhetrajña Vibhāg Yog",
         "verses_count": 35
@@ -163,6 +176,7 @@
         "image_name": "gunatraya-vibhaga-yoga",
         "name": "गुणत्रयविभागयोग",
         "name_meaning": "Yoga through Understanding the Three Modes of Material Nature",
+        "image_url": "assets/chapter_images/ch14.jpg",
         "name_translation": "Gunatraya Vibhaga Yoga",
         "name_transliterated": "Guṇa Traya Vibhāg Yog",
         "verses_count": 27
@@ -175,6 +189,7 @@
         "image_name": "purushotamma-yoga",
         "name": "पुरुषोत्तमयोग",
         "name_meaning": "The Yoga of the Supreme Divine Personality",
+        "image_url": "assets/chapter_images/ch15.jpg",
         "name_translation": "Purushottama Yoga",
         "name_transliterated": "Puruṣhottam Yog",
         "verses_count": 20
@@ -187,6 +202,7 @@
         "image_name": "daivasura-sampad-vibhaga-yoga",
         "name": "दैवासुरसम्पद्विभागयोग",
         "name_meaning": "Yoga through Discerning the Divine and Demoniac Natures",
+        "image_url": "assets/chapter_images/ch16.jpg",
         "name_translation": "Daivasura Sampad Vibhaga Yoga",
         "name_transliterated": "Daivāsura Sampad Vibhāg Yog",
         "verses_count": 24
@@ -199,6 +215,7 @@
         "image_name": "shraddha-traya-vibhaga-yoga",
         "name": "श्रद्धात्रयविभागयोग",
         "name_meaning": "Yoga through Discerning the Three Divisions of Faith",
+        "image_url": "assets/chapter_images/ch17.jpg",
         "name_translation": "Sraddhatraya Vibhaga Yoga",
         "name_transliterated": "Śhraddhā Traya Vibhāg Yog",
         "verses_count": 28
@@ -211,6 +228,7 @@
         "image_name": "moksha-sanyasa-yoga",
         "name": "मोक्षसंन्यासयोग",
         "name_meaning": "Yoga through the Perfection of Renunciation and Surrender",
+        "image_url": "assets/chapter_images/ch18.jpg",
         "name_translation": "Moksha Sanyaas Yoga",
         "name_transliterated": "Mokṣha Sanyās Yog",
         "verses_count": 78

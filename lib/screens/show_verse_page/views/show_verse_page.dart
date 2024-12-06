@@ -45,8 +45,12 @@ class _ShowVersePageState extends State<ShowVersePage> {
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {
-                  Navigator.pushNamed(context, AppRoutes.versePageView,
-                      arguments: hRead.chapterWiseVerseList[index]);
+                  // hRead.chapterWiseVerse(hWatch.gitaChapter[index].id!);
+                  Navigator.pushNamed(
+                    context,
+                    AppRoutes.versePageView,
+                    // arguments: hRead.chapterWiseVerseList[index],
+                  );
                 },
                 child: Card.filled(
                   child: Padding(
