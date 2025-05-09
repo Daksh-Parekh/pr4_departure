@@ -34,24 +34,35 @@ Experience the app in action!
 
 ## Screenshots  
 
+### Splash Screen
+
+<img src="https://github.com/user-attachments/assets/c1764f17-b161-4c4e-ac0b-2ec370d94278" width="300px">
 
 ### Chapter List 
-<img src="https://github.com/user-attachments/assets/17bc46c9-7053-4b96-bc39-a365326df8ff" width="300px">
-<img src="https://github.com/user-attachments/assets/1f6da2ce-2fdc-45b9-92f5-b104608911ed" width="300px">
-*Displays the 18 chapters of the Bhagavad Gita in a ListView. Users can select a chapter to view its verses.*
+
+<img src="https://github.com/user-attachments/assets/f9acaa0a-72c7-4980-8e37-b7d571b92acf" width="300px">
+<img src="https://github.com/user-attachments/assets/f55b85d7-bf5c-43e5-a531-6f306f76ab4c" width="300px">
+<img src="https://github.com/user-attachments/assets/ab720a4d-48c7-49da-90c1-0e301cd88bcd" width="300px">
 
 ### Verse Grid  
-<img src="https://github.com/user-attachments/assets/26131b68-f3ff-4c4d-9d54-36a23716004b" width="300px">
-<img src="https://github.com/user-attachments/assets/796897db-7d51-4ecd-bdbb-72840f805dbc" width="300px">
-*Shows all verses of the selected chapter in a GridView, allowing for easy navigation.*
+
+<img src="https://github.com/user-attachments/assets/9de2d3f2-17af-422d-8c9a-a81ed04433ad" width="300px">
+<img src="https://github.com/user-attachments/assets/e3df8e66-dde2-4e4c-bc30-78b477dfc629" width="300px">
 
 ### Verse Detail  
 
-<img src="https://github.com/user-attachments/assets/fdad5110-7be6-4669-9580-ebe5f19270ed" width="300px">
-<img src="https://github.com/user-attachments/assets/0148943d-21ea-4025-9a92-a6b78dd88ea9" width="300px">
-*Displays the selected verse along with the chapter image and a Text-to-Speech button for listening to the verse.*
+<img src="https://github.com/user-attachments/assets/2abe07f1-cdc6-42c6-b804-10767eb1e28c" width="300px">
+<img src="https://github.com/user-attachments/assets/d806b799-3085-498c-bea6-4dd066c58d3f" width="300px">
 
 ---
+
+
+## Video  
+
+https://github.com/user-attachments/assets/9eb1d530-e08e-47d8-a264-b0c70143a605
+
+---
+
 
 ## Project Structure  
 
